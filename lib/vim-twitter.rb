@@ -11,7 +11,7 @@ def twit
   $global_twitter_client ||= Twitter::Base.new prompt('twitter email'), prompt('twitter password') if $global_twitter_client.nil?
 end
 
-def tweets *args
+def tweets
   clear
   set_current_line 'tweets:'
   twit.timeline.each do |tweet|
