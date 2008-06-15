@@ -1,0 +1,21 @@
+vim-twitter
+===========
+
+vim-twitter is a simple vim plugin for using twitter from vim
+
+vim-twitter has crazy simple requirements ... namely, i want to be 
+able to view recent tweets from friends and i want to be able to tweet
+
+
+why?
+----
+
+vim-twitter is being made simply as an excuse for me to work on vimilicious (http://github.com/remi/vimilicious)
+
+
+license
+-------
+
+vim-twitter is released under the terms of the GNU Affero General Public License
+
+we reserve the right to re-release under a more permissive license in the future
