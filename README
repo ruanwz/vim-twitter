@@ -13,6 +13,27 @@ why?
 vim-twitter is being made simply as an excuse for me to work on vimilicious (http://github.com/remi/vimilicious)
 
 
+install
+-------
+
+Make sure you have vim compiled with ruby support (on many linux systems, install the vim-ruby package)
+
+  $ sudo gem sources --add http://gems.github.com
+  $ sudo gem install remi-vim-twitter
+
+Then, add these lines to your .vimrc
+
+  ruby require 'rubygems'
+  ruby require 'vim-twitter'
+
+
+usage
+-----
+
+  :Tweets            # shows recent tweets from friends
+  :Tweet 'hello!'    # tweets
+
+
 license
 -------
 
