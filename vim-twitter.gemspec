@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "vim-twitter"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.date = "2008-06-15"
   s.summary = "use twitter from vim"
   s.email = "remi@remitaylor.com"
